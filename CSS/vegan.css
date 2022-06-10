@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../IMG/Rectangle1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+}
+header{
+    width: 100%;
+    
+}
+nav{
+    padding: 50px;
+}
+nav ul{
+    display: flex;
+    margin-left: 646px;
+}
+nav ul li{
+    margin-right: 100px;
+}
+nav ul li a{
+   background-color: gainsboro;
+   padding: 26px 16px;
+   border-radius:0px 30px 0px 30px;
+   color: black;
+   transition: color 1s, background-color 1s;
+}
+nav ul li a:hover{
+    background-color: #79B331;
+    color: white;
+}
+.active{
+    background-color: #79B331;
+    color: white;
+}
+.yolifer{
+    width: 420px;
+    height: 186px;
+    margin-left: 816px;
+}
+.inar{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#demo{
+    font-size: 36px;
+}
+.aq{
+    margin-top: 24px;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:390px; top:0px;}
+    50%  {left:390px; top:156px;}
+    75%  {left:0px; top:156px;}
+    100% {left:0px; top:0px;}
+}
+.orb{
+    width: 30px;
+    height: 30px;
+    background-color: #79B331;
+    border-radius: 50%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.fir{
+    width: 1080px;
+    height: 500px;
+    margin-top: 250px;
+    margin-left: 410px;
+    position: relative;
+}
+.gero{
+    width: 1px;
+    height: 500px;
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+.xeitem{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ta{
+    transform: rotate(90deg);
+}
+.firs{
+    height: 70px;
+    width: 70px;
+    background-color: gainsboro;
+    border-radius:   0px 50% 0px 50%;
+}
+.first{
+    width: 420px;
+}
+.xeitem:nth-child(2){
+    top: -40px;
+    left: 1px;
+}
+.xeitem:nth-child(3){
+    top: 80px;
+    left: 50%;
+}
+.xeitem:nth-child(4){
+    top: 170px;
+    left: 0;
+}
+.xeitem:nth-child(5){
+    top: 260px;
+    left:50%;
+}
+.xeitem:hover p{
+    color: #79B331;
+}
+.xeitem:hover .firs{
+    background-color: #79B331;
+}
